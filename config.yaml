@@ -3,7 +3,7 @@
   become: true
   vars:
     username:
-      - motd.yml
+      - Ivan
   tasks:
 
   - name: Install python3 and pip in Ubuntu and CentOS
